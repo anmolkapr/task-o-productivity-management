@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+ 
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+}
+#main{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.logo img{
+  height:80px;
+  width: 80px;
+  margin-top: 20px;
+  
+}
+.contact{
+  text-transform: uppercase;
+}
+nav{
+  display: flex;
+  justify-content: space-around; 
+  align-items: fixed;
+  position: fixed;
+  top: 0 ;
+  left: 0 ;
+  width: 100%;
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.05);
+  z-index: 1;
+ 
+}
+.menu{
+  list-style: none;
+  display: flex;
+}
+.menu li a{
+  height: 40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: darkblue;
+  
+}
+.contact{
+     color: orangered;
+     font-weight: 500;
+     font-size: 0.9em;
+     border-bottom: 2px solid orangered;
+     margin-top: 100px;
+     
+}
+a{
+  text-decoration: none;
+}
+.image {
+   width: 400px;
+   height: 500px;
+   margin-right: 100px;
+}
+.image img{
+  width: 600x;
+  height: 600px;
+  object-fit: contain;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.Content{
+  display: flex; justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  }
+  .main-text{
+    width: 500px;
+  }
+  .main-text h1{
+    font-size: 3.4em;
+    color:rgb(103, 103, 158);
+    margin: 0px 0px 10px 0px;
+    line-height: 60px;
+   
+  }
+  .main-text p{
+    color: rgb(214, 118, 9);
+    
+  }
+  .resume-btn{
+    width:100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color:rgb(77, 79, 228);
+    border-radius: 20px;
+    box-shadow: 15px 10px 30px rgba(80, 80, 214, 0.05);
+}
+
+.resume-btn:hover{
+  background-color: #23cdaf;
+  transition: all ease 0.2s;
+}
+.menu li a:hover{
+  background-color: #23cdaf;
+  color: white;
+  box-shadow: 15px 10px 30px rgba(80, 80, 214, 0.05);
+transition: all ease 0.2s;
+}
+
+
+ 
